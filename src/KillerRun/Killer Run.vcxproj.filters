@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DLLs">
+      <UniqueIdentifier>{41664264-b4c0-4a61-a628-1fd99e98d41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{1d28bbf2-6e3f-4cab-9d4c-839383561edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{b1834cfd-7d6a-4552-a095-763e96d2d7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{fdf5125e-3971-4a43-8e53-77c480c34c33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependencies\libfreetype-6.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libjpeg-9.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libmodplug-1.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libogg-0.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libpng16-16.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libtiff-5.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libvorbis-0.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libvorbisfile-3.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\libwebp-4.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\SDL2.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\SDL2_image.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\SDL2_mixer.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\SDL2_ttf.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\smpeg2.dll">
+      <Filter>DLLs</Filter>
+    </None>
+    <None Include="Dependencies\zlib1.dll">
+      <Filter>DLLs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Dependencies\libFLAC-8.dll">
+      <Filter>DLLs</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\HATTEN.TTF">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\JUICE.TTF">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Images\Enemy.PNG">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Enemy2.PNG">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Enemy3.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Enemy4.PNG">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Explosion.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\GameOver_Base.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\MainMenu.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Missile.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Plane.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Resources\Images\Scenario_Extended.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Scenario_Extended.png">
+      <Filter>Resource Files\Images</Filter>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\SFX_Shot.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

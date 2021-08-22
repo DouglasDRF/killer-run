@@ -1,0 +1,7 @@
+*.obj
+*.pdb
+*.log
+*.VC.db
+*.vs
+**/[Dd]ebug/**
+**/[Rr]elease/**
