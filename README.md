@@ -1,1 +1,1 @@
-This game was developed at 2016 as graduation woker
+This game was developed at 2016 as an academic work.
